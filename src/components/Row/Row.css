@@ -1,0 +1,22 @@
+.tile{
+    width: calc(10% - 5px);
+    height: calc(100% - 5px);
+
+    font-size: 30px;
+
+    float: left;
+    background: #5b5b5b;
+    margin: 2.5px;
+    border-radius: 2px;
+}
+.empty:hover{
+    background: #ffb668;
+    transition: all 100ms ease-out; 
+}
+
+.player{
+    background: #ff5555;
+}
+.ai{
+    background: #ffff55;
+}
